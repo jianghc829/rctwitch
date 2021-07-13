@@ -4,7 +4,7 @@
 
 # =============== backend ===============
 # database properties
-twitch-backend/src/main/resource/config.properties
+twitch-backend/src/main/resources/config.properties
 
 # production
 twitch-backend/target

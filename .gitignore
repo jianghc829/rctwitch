@@ -1,0 +1,40 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+.DS_Store
+
+# =============== backend ===============
+# database properties
+twitch-backend/src/main/resource/config.properties
+
+# production
+twitch-backend/target
+
+# misc
+twitch-backend/.DS_Store
+twitch-backend/.settings
+twitch-backend/.vscode
+twitch-backend/.classpath
+twitch-backend/.project
+
+# =============== frontend ===============
+# dependencies
+twitch-app/node_modules
+twitch-app/.pnp
+twitch-app/.pnp.js
+
+# testing
+twitch-app/coverage
+
+# production
+twitch-app/build
+
+# misc
+twitch-app/.DS_Store
+twitch-app/.env.local
+twitch-app/.env.development.local
+twitch-app/.env.test.local
+twitch-app/.env.production.local
+
+twitch-app/npm-debug.log*
+twitch-app/yarn-debug.log*
+twitch-app/yarn-error.log*
